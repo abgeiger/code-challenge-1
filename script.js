@@ -7,7 +7,6 @@ function readyNow() {
     console.log('JQ');
     $(document).on('click', '#generateButton', generateButtonClick);
     $(document).on('click', '.swapButton', swapButtonClick);
-    $(document).on('click', '.swapButton', swapButtonClick);
     $(document).on('click', '.swapButton2', swapButtonClick2);
     $(document).on('click', '.deleteButton', deleteButtonClick);
 }
